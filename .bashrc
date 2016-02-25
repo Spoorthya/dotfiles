@@ -1,5 +1,5 @@
 # .bashrc file
-# By Balaji S. Srinivasan (balajis@stanford.edu)
+# By Balaji S. Srinivasan
 #
 # Concepts:
 #
@@ -216,7 +216,7 @@ export NODE_DISABLE_COLORS=1
 if [ -s ~/.nvm/nvm.sh ]; then
     NVM_DIR=~/.nvm
     source ~/.nvm/nvm.sh
-    nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
+    nvm use v0.11.16 &> /dev/null # silence nvm use; needed for rsync
 fi
 
 ## ------------------------------
